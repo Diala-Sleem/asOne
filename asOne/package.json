@@ -18,10 +18,6 @@
   },
   "author": "Diala Sleem",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vanvand/MERN_eCommerce_BradTraversy/issues"
-  },
-  "homepage": "https://github.com/vanvand/MERN_eCommerce_BradTraversy#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
