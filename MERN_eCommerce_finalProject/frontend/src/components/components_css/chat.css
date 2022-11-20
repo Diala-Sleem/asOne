@@ -1,0 +1,239 @@
+/* CHAT SCREEN */
+.chat-container {
+    height: 73.9vh;
+    overflow: visible;
+}
+
+.chat-mainRow2 {
+    height: 100% !important;
+}
+
+.chat-inbox-container {
+    margin: 0 auto;
+    padding: .5rem 0 0 0;
+}
+
+.chat-inbox-container h4 {
+    text-transform: capitalize !important;
+    letter-spacing: 0.17rem;
+}
+
+.chat-name-container {
+    margin: 0 auto;
+    padding: .5rem 0 0 0;
+    border-left: 1px solid rgb(228, 228, 228) !important;
+}
+
+.chat-name-container h4 {
+    text-transform: capitalize !important;
+    letter-spacing: 0.15rem;
+    text-align: center;
+}
+
+.chat-body-container {
+    height: 100%;
+    border-left: 1px solid rgb(228, 228, 228) !important;
+    padding: 0 !important;
+}
+
+.myChats-container {
+    height: 100%;
+    overflow:scroll !important;
+    scroll-behavior: smooth;
+    padding: 0 !important;
+}
+
+/* CHAT BODY */
+.messageStarter-container {
+    display: flex;
+    height: 100%;
+    min-height: 35.20rem;
+    max-height: 35.20rem;
+    padding: 1rem 0
+}
+
+.message-container {
+    display: flex;
+    height: 100%;
+    min-height: 32.5rem;
+    max-height: 32.5rem;
+    overflow: scroll;
+    padding: 1.5rem 0 1rem 0;
+}
+
+.message-row {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    box-sizing: content-box !important;
+    margin: .75rem 0;
+    padding: 0 !important;
+}
+
+.left-container {
+    display: flex;
+    margin-left: .5rem;
+}
+
+.message-right {
+    align-self: flex-end;
+    height: 3rem;
+    border-radius: 5px;
+    padding-left: .5rem;
+    padding-right: .75rem;
+    margin-right: 1.25rem;
+    background-color: rgb(231, 229, 229) !important;
+}
+
+.message-left {
+    background-color: rgb(247, 247, 247) !important;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: .75rem;
+    padding-left: .75rem;
+}
+
+.card-body {
+    padding: .5rem .5rem .5rem .25rem !important;
+}
+
+.message-avatar {
+    border-radius: 5%;
+    height: 3rem;
+    width: 3rem;
+    margin-left: .3rem;
+    display: inline-block;
+}
+
+.chatBody-userDetails {
+    height: 6rem;
+    line-height: 1.2rem;
+}
+
+.rent-approval {
+    height: auto;
+    width: 31.5% !important;
+    box-sizing: content-box !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    align-self: flex-end;
+    border:1px solid rgb(190, 190, 190);
+    padding: .5rem !important;
+    border-radius: 5px;
+    margin-right: 1.25rem;
+}
+
+/* RECENT CHAT LIST */
+
+.selectedChat {
+    background-color: rgb(247, 247, 247) !important;
+}
+
+/* USER COMPONENT */
+
+.userChat-row {
+    padding: 0 auto !important;
+    justify-content: flex-start !important;
+}
+
+.userChat-button {
+    display: flex !important;
+    padding: 0 !important;
+    border-bottom: 1px solid rgb(228, 228, 228) !important;
+}
+
+.userChat-col1 {
+    display: flex;
+    padding-left: .5rem;
+}
+
+.userChat-avatar {
+    height: 3.5rem;
+    width: 3.5rem;
+    display: inline-block;
+    margin: 1rem 0 1rem .3rem;
+}
+
+.userChat-col2 {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    padding: .5rem 0 .5rem .5rem;
+}
+
+.userChat-userName {
+    color:rgb(66, 66, 66);
+    text-align: left;
+    margin: 0 auto;
+}
+
+.userChat-latestMessage {
+    text-align: left;
+    color:rgb(173, 173, 173);
+    text-transform: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-right: 3rem !important;
+    margin-bottom: .3rem;
+}
+
+.userChat-productImage {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.userChat-productData {
+    color:rgb(114, 114, 114);
+    line-height: 1rem;
+    margin: .2rem;
+    padding: 0 auto !important;
+    text-transform: none;
+
+}
+
+.userChat-product {
+    text-align: left;
+    margin: .5rem auto;
+}
+
+.productName {
+    color: rgb(66, 66, 66);
+    font-style: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* PRODUCT DETAILS */
+.chat-productDetails h4{
+    letter-spacing: 0.1rem;
+    text-transform: none;
+}
+
+.chat-productDetails h5{
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    text-transform: none;
+}
+
+.productDetails-card {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+}
+
+.image-col {
+    align-self: flex-start;
+}
+
+.info-col {
+    align-self: flex-end;
+}
+
+.productDetails-image {
+    height: 100%;
+    width: 30px;
+    padding: 0;
+}

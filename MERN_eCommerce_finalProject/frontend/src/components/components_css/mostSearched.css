@@ -1,0 +1,59 @@
+.h3-custom {
+  padding: 1.5rem 0 0.5rem 0
+}
+
+.most-searched-container {
+  margin-top: 2rem;
+  background-color: #eee;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.most-searched-terms {
+  padding-bottom: 1.5rem;
+}
+
+.alignStart{flex-grow: 0;}
+
+
+
+.linkStylingSearch{
+  text-decoration: none;
+  color:#343a40;
+  padding:10px;
+    transition:  0.5s;
+
+}
+
+.linkStylingSearch:hover{
+  text-decoration: none;
+  color:rgb(160, 207, 182);
+  padding:10px;
+}
+
+.searchText{ white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:auto;
+  max-width: 280px;
+scroll-behavior: smooth}
+
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #343a40 #f8f9fa;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f8f9fa;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #343a40;
+  border-radius: 30px;
+  border: 6px solid #f8f9fa;
+}

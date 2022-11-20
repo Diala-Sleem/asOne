@@ -1,0 +1,312 @@
+:root {
+  --txt-color: #000000;
+  --txt-color-dark: #353535;
+  --txt-color-medium: #7F7F7F;
+  --txt-color-light: #F2F2F2;
+  --txt-color-highlight: #EE6C87;
+  --txt-color-highlight-blue: #224AFB;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 2rem 0 0 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+/* #################################################### */
+/* custom buttons */
+.btn-custom {
+  border: 1px solid var(--txt-color-medium);
+  color: var(--txt-color-medium)
+} 
+
+.btn-custom-cta {
+  background-color: var(--txt-color);
+  border-radius: 10px;
+  font-size: 12px
+}
+
+.btn-custom-cta-light {
+  background-color: white;
+  border: 2px solid var(--txt-color);
+  color: var(--txt-color);
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.btn-custom-submit {
+  background-color: var(--txt-color);
+  font-size: 14px;
+  margin-top: 1.25rem;
+}
+
+.btn-custom-cta:hover{
+  background-color: var(--txt-color-highlight-blue) !important;
+}
+
+.btn-custom-cta-light:hover {
+  background-color: var(--txt-color-highlight-blue) !important;
+  border: 2px solid var(--txt-color-highlight-blue) !important;
+  color: white !important
+}
+
+.btn-custom-submit:hover{
+  background-color: var(--txt-color-highlight-blue) !important;
+}
+
+/* #################################################### */
+/* ProductScreen */
+.carousel img {
+  height: 500px;
+  margin: 40px 0;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+
+.product-info-col {
+  margin-top: 2rem
+}
+
+.h4-product-screen {
+  padding: 1rem 0
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.btn-admin {
+  background-color: white;
+  border: 2px solid var(--txt-color-light);
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.btn-admin:hover {
+  border: 2px solid var(--txt-color)
+}
+
+
+/* #################################################### */
+/* Header */
+.navbar {
+  padding: 0.5rem 1rem;
+  position: relative;
+  z-Index: 1000;
+  border-bottom: 1px solid var(--txt-color) 
+}
+
+.navbar-Collapse {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+} 
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.icon > i{
+  font-size: 22px;
+  color: var(--txt-color)
+}
+.icon:hover > i {
+   color: var(--txt-color-highlight-blue);
+}
+
+.userThumbnail {
+  border-radius: 50%;
+  width: 40px
+}
+
+.user-dropdown .nav-link {
+  color: var(--txt-color)
+}
+
+.user-dropdown .nav-link:hover {
+  color: var(--txt-color-highlight-blue);
+}
+
+
+/* #################################################### */
+/* CategoryHeader */
+.category-nav {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  /* border-bottom: 1px solid var(--txt-color); */
+  padding: 0.25rem 0
+}
+
+.link-container{
+  transition:  0.5s;
+}
+
+.btn-category-nav {
+  color: var(--txt-color);
+  text-transform: capitalize; 
+  font-size: 16px
+}
+
+.btn-category-nav:hover {
+  background-color: white !important;
+  color: var(--txt-color-highlight-blue) !important;
+}
+
+
+/* #################################################### */
+/* SearchBox */
+.search {
+  border-radius: 30px;
+  border: 2px solid var(--txt-color);
+  margin-right: 1rem;
+}
+
+.search:hover {
+  background-color: var(--txt-color-light);
+  border: 1px solid var(--txt-color-light)
+}
+
+@media (max-width: 992px) {
+.search { margin-top: 15px;
+  margin-top: 15px;
+}
+}
+
+.btn-search {
+  padding: 0 1rem;
+  color: var(--txt-color);
+}
+
+
+/* #################################################### */
+/* Product Component */
+.card-link-custom {
+  text-decoration: none;
+}
+
+.card-img-custom{
+    height: 250px;
+    object-fit: cover;
+}
+
+/* location */
+.card h6:first-child {
+  color: var(--txt-color-medium)
+}
+
+.card-title-custom{    
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+
+/* #################################################### */
+/* Footer */
+.footer-container {
+  background-color: var(--txt-color-light);
+  margin-top: 2rem;
+}
+
+.footer-container-inner {
+  padding: 2rem 0
+}
+
+.footer-logo {
+  padding-bottom: 0.75rem
+}
+
+.footer-claim {
+  color: var(--txt-color-dark);
+  padding-bottom: 2.5rem;
+  font-weight: bold;
+}
+
+.footer-links {
+  padding-bottom: 2rem
+}
+
+.footer-links h4 {
+  color: var(--txt-color-dark);
+  font-size: 18px;
+}
+
+.footer-links .list-group-item {
+  background-color: transparent;
+  border: none;
+  color: var(--txt-color-dark)
+}
+
+.footer-links .list-group-item:hover {
+  background-color: transparent;
+  color: var(--txt-color-highlight-blue);
+}
+
+.newsletter-form .form-control {
+  background-color: white
+}
+
+.btn-sign-up {
+  padding: 0.3rem 0;
+}
+
+.social-media-links i {
+  font-size: 24px;
+  color: var(--txt-color-dark);
+}
+
+.social-media-links i:hover {
+  color: var(--txt-color-highlight-blue);
+}
+
+.copyright-container {
+  margin: 1rem 0
+}
+
+/* #################################################### */
+/* Wishlist */
+.btn-wishlist-rented {
+  width: 100%;
+  position: absolute;
+  top: 115px;
+  right: 0px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7)
+}
+
+
+.btn-wishlist-remove {
+  width: 20%;
+  margin: 0 auto;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: var(--txt-color);
+  color: white;
+}
